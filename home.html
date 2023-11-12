@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="form-container">
+    <h1 class="insertname"></h1>
+    <h2>Student details</h2>
+    <form id="signup-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name"  name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email"  name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="number">Number:</label>
+            <input type="tel" id="number" name="number" required>
+        </div>
+        <div class="form-group Addstudentsbtn">
+            <input type="button" value="Addstudents" class="addstudentbtn addstudentbtnn">
+        </div>
+    </form>
+</div>
+
+<!-- <div>
+    <p><strong class="one">form Id</strong><span>one</span></p>
+    <p><strong class="two">form Id</strong><span>two</span></p>
+    <p><strong class="three">form Id</strong><span>three</span></p>
+    <p><strong class="four">form Id</strong><span>four</span></p>
+</div> -->
+
+<h2>Student Records</h2>
+<div class="studentsdata">
+
+</div>
+
+
+<div class="delallbtncontainer">
+<button class="deltall" onclick="Deleteall()">Delete-All</button>
+</div>
+
+
+
+<div class="form-container editstudentdata">
+    <h2>Edit Student-details</h2>
+    <form id="signup-form">
+        <div class="form-group">
+            <label for="name">Formid:</label>
+            <input type="number" placeholder="formid" id="formid" class="formid"  name="formid" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="name" id="name" class="editname"  name="name" required>
+        </div>
+        <div id="unique" class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email" class="editemail"  name="email" required>
+        </div>
+        <div class="form-group">
+
+            <label for="number">Number:</label>
+            <input type="tel" id="number" name="number" placeholder="number" class="editnumber" required>
+
+        </div>
+        <div class="form-group Addstudentsbtn">
+
+            <input type="button" value="editstudents"  class="editstudentbtn">
+
+        </div>
+    </form>
+</div>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="app.js"></script> 
+</body>
+</html>

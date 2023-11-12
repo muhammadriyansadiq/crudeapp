@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Log in</h2>
+        <form>
+            <!-- <div class="form-group">
+                <label for="username">Name:</label>
+                <input type="text" id="lgame" name="userename" required>
+            </div> -->
+            <div class="form-group">
+                <label for="useremail">Email:</label>
+                <input type="text" id="lgnuemail" name="useremail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="lgnpassword" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" onclick="Login(event)" >
+                <!-- <input type="button" value="Signup" class="signupbtn"> -->
+
+            </div>
+            <div class="form-group">
+                <input type="button" class="signupbtn" value="Signup" onclick="signuppage()">
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
